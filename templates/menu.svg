@@ -1,0 +1,6 @@
+<g xmlns="http://www.w3.org/2000/svg" id="template-menu">
+  <g id="hand" class="button selected" transform="translate(1185 25)" role="button" tabindex="0" aria-label="Mano: agire"><rect class="plate" width="94" height="94" rx="6"/><path class="glyph" d="M29 76 17 59Q13 52 19 49Q24 47 29 54V28Q29 21 35 21Q42 21 42 28V46V19Q42 12 49 12Q56 12 56 19V46V26Q56 19 63 19Q70 19 70 26V48V34Q70 27 77 27Q84 27 84 34V65Q84 83 65 87H44Q35 86 29 76Z" stroke-width="4"/></g>
+  <g id="lens" class="button" transform="translate(1288 25)" role="button" tabindex="0" aria-label="Lente: esaminare"><rect class="plate" width="94" height="94" rx="6"/><circle class="glyph" cx="39" cy="38" r="23"/><path class="glyph" d="M56 57 79 80"/></g>
+  <g id="bag" class="button" transform="translate(1391 25)" role="button" tabindex="0" aria-label="Inventario"><rect class="plate" width="94" height="94" rx="6"/><path class="glyph" d="M24 36H70V76H24ZM35 36V26Q47 13 60 26V36M24 50H70M43 50V58M55 50V58"/></g>
+  <g id="settings" class="button" transform="translate(1494 25)" role="button" tabindex="0" aria-label="Impostazioni"><rect class="plate" width="94" height="94" rx="6"/><circle class="glyph" cx="47" cy="47" r="17"/><path class="glyph" d="M47 15V25M47 69V79M15 47H25M69 47H79M24 24 31 31M63 63 70 70M70 24 63 31M31 63 24 70"/></g>
+</g>
