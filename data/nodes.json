@@ -1,0 +1,18 @@
+{
+  "initialNode": "cimitero",
+  "nodes": {
+    "cimitero": {
+      "image": "assets/scenes/cimitero.png",
+      "hotspots": [
+        {"id":"porta_sinistra","rect":[100,180,290,685],"look":"Una vecchia porta di legno. È chiusa a chiave.","action":"locked"},
+        {"id":"porta_destra","rect":[1110,350,1300,720],"look":"La porta di un antico mausoleo.","action":"locked"},
+        {"id":"cancello","rect":[710,375,870,615],"look":"Il cancello conduce oltre il cimitero.","action":"goto:oltre_cancello"},
+        {"id":"lanterna","rect":[1300,600,1570,910],"look":"Una candela dentro una lanterna.","action":"message:La candela è al suo posto."}
+      ]
+    },
+    "oltre_cancello": {
+      "image":"assets/scenes/oltre_cancello.svg",
+      "hotspots":[{"id":"ritorno","rect":[0,0,1672,941],"look":"Il sentiero per tornare al cimitero.","action":"goto:cimitero"}]
+    }
+  }
+}
