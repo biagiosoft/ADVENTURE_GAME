@@ -12,3 +12,11 @@ body{display:grid;place-items:center;touch-action:manipulation}
 #notice{transition:opacity .16s ease}
 #rotate{display:none;position:fixed;inset:0;z-index:10;place-items:center;text-align:center;background:#111;color:white;font:24px Georgia;padding:24px}
 @media(orientation:portrait){#rotate{display:grid}}
+
+/* Le icone sono PNG reali ricavati dalla stessa anteprima grafica. */
+#menu-mount .hit-area{fill:transparent;stroke:none;pointer-events:all}
+#menu-mount .button image{pointer-events:none}
+#menu-mount .button:focus-visible .hit-area{stroke:#2cff55;stroke-width:5}
+
+#menu-mount .button image{pointer-events:none}
+#menu-mount .hit-area{fill:transparent;stroke:none;pointer-events:all}

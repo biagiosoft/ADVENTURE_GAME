@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
   <meta name="theme-color" content="#111111">
   <title>BSOFT Adventure Game</title>
-  <link rel="stylesheet" href="css/game.css">
-  <script src="js/game.js" defer></script>
+  <link rel="stylesheet" href="css/game.css?v=16">
+  <script src="js/game.js?v=16" defer></script>
 </head>
 <body>
 <svg id="game" viewBox="0 0 1672 941" xmlns="http://www.w3.org/2000/svg" aria-label="Adventure Game">
@@ -16,7 +16,9 @@
     <radialGradient id="glow"><stop stop-color="white" stop-opacity=".9"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
   </defs>
   <rect width="1672" height="941" fill="#fff"/>
-  <image id="scene" x="46" y="46" width="1580" height="849" preserveAspectRatio="xMidYMid meet"/>
+  <!-- Scena: soltanto il disegno; template cornice e menu esterni. -->
+  <image id="scene" x="36" y="36" width="1600" height="869" preserveAspectRatio="none"/>
+  <image id="cat-sprite" href="" x="700" y="690" width="165" height="145" preserveAspectRatio="xMidYMid meet" style="display:none;cursor:pointer" aria-label="Gatto: tocca per sentire il miagolio"/>
   <g id="frame-mount"></g>
   <g id="menu-mount"></g>
   <g id="spark" pointer-events="none" opacity="0"><circle r="40" fill="url(#glow)"/><circle id="spark-ring" r="12" fill="none" stroke="#fff" stroke-width="3"/></g>
@@ -33,5 +35,6 @@
 <div id="rotate">Ruota il dispositivo in orizzontale</div>
 <audio id="ambient" src="assets/audio/musica.wav" preload="auto" loop></audio>
 <audio id="lock" src="assets/audio/serratura.wav" preload="auto"></audio>
+<audio id="meow" src="assets/audio/gatto_miao.wav" preload="auto"></audio>
 </body>
 </html>

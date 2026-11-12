@@ -1,14 +1,10 @@
-# ADVENTURE_GAME
+# Adventure Game — Test 18
 
-Adventure Game BSOFT: progetto modulare point-and-click a fumetti in bianco e nero.
+## Risorse permanenti
+- `assets/scenes/cimitero.png`: **vignetta senza gatto**, senza cornice e senza icone; non rigenerarla a ogni caricamento.
+- `assets/cats/`: cinque PNG del medesimo gatto (seduto, cammina, si_pulisce, dorme, miagola).
+- `assets/audio/gatto_miao.wav`: miagolio sintetizzato di prova.
 
-## Struttura
-- `templates/`: cornice e interfaccia SVG riutilizzabili.
-- `assets/scenes/`: immagini delle vignette.
-- `assets/audio/`: musica ed effetti sonori.
-- `js/`: logica del gioco e hotspot.
-- `css/`: stile responsivo.
-- `data/`: nodi e hotspot.
-- `index.html`: pagina principale per Netlify.
+All'ingresso nella vignetta viene scelta una posa casuale e una posizione nella zona centrale del vialetto. Il gatto resta fermo; clic/tocco sul gatto riproduce il suono. Il menu e la cornice del Test 17 non sono stati modificati.
 
-Il sito di test è https://bsoftadventure1.netlify.app. Gli asset binari della scena e dell'audio vanno aggiunti nelle cartelle indicate. Il repository è la fonte principale del progetto; Netlify serve soltanto per il test delle versioni pubblicate.
+Nota: il suono è un effetto sintetico di test, non una registrazione reale.
